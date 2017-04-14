@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/NZHTest">
+        <file>images/ReadMe.txt</file>
+    </qresource>
+</RCC>

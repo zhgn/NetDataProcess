@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config identifier="Menu" version="1.1.0" Save="false">
+    <iconsize>32</iconsize>
+    <actions>
+        <action id="Action.SideWidget.Test" icon=":/NZHTest/images/tree.png" checkable="true">File tree</action>
+    </actions>
+
+    <toolbars>
+        <toolbar id="ToolBar.SideWidget" allingroup="true">
+            <action id="Action.SideWidget.Test"/>
+        </toolbar>
+    </toolbars>
+
+</config>

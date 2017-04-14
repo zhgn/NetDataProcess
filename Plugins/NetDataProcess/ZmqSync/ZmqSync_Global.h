@@ -1,0 +1,12 @@
+#ifndef ZMQSYNC_GLOBAL_H
+#define ZMQSYNC_GLOBAL_H
+
+#include <QtGlobal>
+
+#if defined(ZMQSYNC_LIBRARY)
+#  define ZMQSYNCSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define ZMQSYNCSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // ZMQSYNC_GLOBAL_H
